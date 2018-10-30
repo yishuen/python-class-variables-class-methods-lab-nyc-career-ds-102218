@@ -58,7 +58,7 @@ class Driver:
         print(count)
         main_make_count = count[make]
         total = len(Driver.list_fleet_makes)
-        return str(main_make_count/total)+'%'
+        return str(main_make_count*100/total)+'%'
 
 
 Driver("Helga Pataki", "Toyota", "Camry")
